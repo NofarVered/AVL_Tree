@@ -22,17 +22,6 @@ public class AVLTree {
 		this.mini=null; 
 		this.maxi=null;
 	}
-	// delete this function after we finish
-	/* public int check(IAVLNode n) {
-		if (!n.isRealNode()) return 0;
-		System.out.println("key" + n.getKey());
-		System.out.println("left" + n.getLeft().getKey());
-		System.out.println("right" + n.getRight().getKey());
-		System.out.println("size" + n.getSize());
-		System.out.println("size" + n.getHeight());
-		if (n != this.root) System.out.println("parent" + n.getParent().getKey());
-		return this.check(n.getLeft()) + this.check(n.getRight()) + 1;
-	} */
 
 /**
    * public boolean empty()
