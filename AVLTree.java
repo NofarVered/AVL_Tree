@@ -1,7 +1,3 @@
-import avl_tree.AVLTree.IAVLNode;
-//nofarveredn 315391367
-//omerclos 205486939
-
 
 
 /**
